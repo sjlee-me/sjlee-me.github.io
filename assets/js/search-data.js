@@ -181,17 +181,6 @@ ninja.data = [{
             window.location.href = "/blog/2023/post-bibliography/";
           
         },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
       },{id: "post-a-post-with-custom-blockquotes",
         
           title: "a post with custom blockquotes",
@@ -395,11 +384,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-don-39-t-just-follow-mllm-plans-robust-and-efficient-planning-for-open-world-agents",
-          title: 'Don&amp;#39;t Just Follow MLLM Plans - Robust and Efficient Planning for Open-world Agents...',
-          description: "with background image",
+          section: "News",},{id: "projects-experience-based-knowledge-correction-for-robust-planning-in-minecraft",
+          title: 'Experience-based Knowledge Correction for Robust Planning in Minecraft',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/repoa/";
+              window.location.href = "/projects/xenon/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -421,4 +410,30 @@ ninja.data = [{
         handler: () => {
           window.open("https://github.com/sjlee-me", "_blank");
         },
-      },];
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];

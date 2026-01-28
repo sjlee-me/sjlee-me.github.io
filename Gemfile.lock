@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.2)
+    activesupport (7.2.3)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -21,7 +21,6 @@ GEM
       minitest (>= 5.1)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
-      uri (>= 0.13.1)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
@@ -147,8 +146,6 @@ GEM
       jekyll (>= 3.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
-    jekyll-jupyter-notebook (0.0.6)
-      jekyll
     jekyll-link-attributes (1.0.1)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
@@ -200,8 +197,7 @@ GEM
     mercenary (0.4.0)
     mini_mime (1.1.5)
     minitest (5.25.5)
-    multi_xml (0.7.2)
-      bigdecimal (~> 3.1)
+    multi_xml (0.6.0)
     namae (1.2.0)
       racc (~> 1.7)
     nokogiri (1.18.8-aarch64-linux-gnu)
@@ -297,7 +293,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-get-json
   jekyll-imagemagick
-  jekyll-jupyter-notebook
   jekyll-link-attributes
   jekyll-minifier
   jekyll-paginate-v2

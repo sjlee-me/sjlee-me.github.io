@@ -384,12 +384,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-experience-based-knowledge-correction-for-robust-planning-in-minecraft",
-          title: 'Experience-based Knowledge Correction for Robust Planning in Minecraft',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/xenon/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',

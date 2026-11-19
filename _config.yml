@@ -327,6 +327,7 @@ filtered_bibtex_keywords:
     selected,
     slides,
     supp,
+    venue,
     video,
     website,
   ]
